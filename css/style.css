@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue-Regular);
+    font-weight: 400;
+}
+
+.container-1 {
+    font-family: PaletteMosaic;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #2c3036;
+    transition: 0.1s;
+}
+
+#color {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+}
+
+button {
+    padding: 20px 48px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+    background: #2a4636;
+    color: #fff;
+    border: 2px solid #01d401;
+    transition: 100ms ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    outline: none;
+    color: white;
+    box-shadow: 0 0 50px 50px #01d401 inset, 0 0 20px #01d401;
+}
